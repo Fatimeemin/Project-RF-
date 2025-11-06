@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 
 # === 1. Load and convert to grayscale ===
-img = Image.open("london kopyası.png").convert("L").resize((64, 64))  # you can use (128,128)
+img = Image.open("london.png").convert("L").resize((64, 64))  # you can use (128,128)
 data = np.array(img, dtype=np.uint8)
 
 # === 2. Save as C header ===
