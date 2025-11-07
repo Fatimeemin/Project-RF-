@@ -9,9 +9,9 @@ data = np.array(img, dtype=np.uint8)
 filename = "image.h"
 with open(filename, "w") as f:
     f.write("#ifndef IMAGE_H\n#define IMAGE_H\n\n")
-    f.write(f"#define IMG_WIDTH {data.shape[1]}\n")
-    f.write(f"#define IMG_HEIGHT {data.shape[0]}\n\n")
-    f.write("const uint8_t image[IMG_WIDTH * IMG_HEIGHT] = {\n")
+    f.write(f"#define w {data.shape[1]}\n")
+    f.write(f"#define h {data.shape[0]}\n\n")
+    f.write("const uint8_t image[w * h] = {\n")
 
     # Write pixels row by row
     for i, row in enumerate(data):
