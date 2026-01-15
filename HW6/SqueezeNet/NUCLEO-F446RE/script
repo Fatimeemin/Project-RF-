@@ -1,0 +1,17 @@
+config load "C:/tmp/ioc_66e594b9-a61a-478d-b6fb-a45086374096/NUCLEO-F446RE.ioc"
+project toolchain STM32CubeIDE
+
+pack enable STMicroelectronics X-CUBE-AI 10.2.0 "Artificial Intelligence" Core
+pack enable STMicroelectronics X-CUBE-AI 10.2.0 Device Application SystemPerformance
+pack validate
+AI set modes 2
+AI init bsp
+AI add model "network" "tflite" "D:\__PRJ\AI_as_a_Service\AIaaS\backend\project_service\templates\deepnet_relu.tflite"
+AI forcecopytype
+AI load requiredPreloadScript
+AI setboard NUCLEO-F446RE
+AI input in activation "network" true
+AI output in activation "network" true
+AI save "network"
+project generate
+exit
