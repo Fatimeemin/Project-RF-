@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>Dataset</folder>
+	<filename>IMG_0062.HEIC</filename>
+	<path>/Users/fatimeemin/Desktop/Dataset/IMG_0062.HEIC</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>9</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>802</xmin>
+			<ymin>689</ymin>
+			<xmax>2145</xmax>
+			<ymax>3099</ymax>
+		</bndbox>
+	</object>
+</annotation>

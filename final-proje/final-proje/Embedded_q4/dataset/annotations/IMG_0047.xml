@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>Dataset</folder>
+	<filename>IMG_0047.HEIC</filename>
+	<path>/Users/fatimeemin/Desktop/Dataset/IMG_0047.HEIC</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>4</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>559</xmin>
+			<ymin>266</ymin>
+			<xmax>2492</xmax>
+			<ymax>3142</ymax>
+		</bndbox>
+	</object>
+</annotation>
